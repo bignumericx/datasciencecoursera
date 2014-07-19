@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set=set, get=get, setSolve=setSolve, getSolve=getSolve)
 }
 
-## the cacheSolve function retrieve the inverse matrix if it exists, 
+## The cacheSolve function retrieve the inverse matrix if it exists, 
 ## if not, it computes the inverse and store it for further access: 
 cacheSolve <- function(x, ...) {
   ## Verify if the inverse matrix of 'x' is already computed
