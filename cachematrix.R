@@ -4,6 +4,7 @@
 
 ## The 'makeCacheMatrix' function create a matrix object 'x'
 ## with four (4) public methods: 'set', 'get', 'setSolve' and 'getSolve'
+## Example: > mat <- makeCacheMatrix(matrix(rnorm(100), c(10, 10)))
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   
