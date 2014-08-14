@@ -49,4 +49,7 @@ cacheSolve <- function(x, ...) {
   
   ## Set the inverse in the 'x' object:
   x$setSolve()
+  
+  ## Return the inverse
+  m
 }
